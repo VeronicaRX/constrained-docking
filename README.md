@@ -18,4 +18,5 @@ Vina
 6) Determined configuration file "vina.config", exhaustiveness and seed. For this work you will use the default parameters.
 7) First launch a non constrained docking 
 8) Convert a dupe ligand like water in pdbqt format and "--flex" implemenation to define ligand as part of receptor
+9) Run the docking. Using matplpotlib built scoring energy plot a function of RMSD. RMSD is calculated between docked poses and crystal pose. Then draw correlation line using Pearson coefficient for both constrained and non constrained docking. 
 
