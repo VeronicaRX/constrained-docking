@@ -19,8 +19,6 @@ Rdock
 
 7) Used both pharmacophore and sdtheter implementation for launch constrained docking
 
-Analyse
-
-Run the docking. Using matplpotlib built scoring energy plot a function of RMSD. RMSD is calculated between docked poses and crystal pose. Then draw correlation line using Pearson coefficient for both constrained and non constrained docking. 
+8) Run the docking. Using matplpotlib built scoring energy plot a function of RMSD. RMSD is calculated between docked poses and crystal pose. Then draw correlation line using Pearson coefficient for both constrained and non constrained docking. 
 
 
