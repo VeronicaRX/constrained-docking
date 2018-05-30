@@ -16,7 +16,7 @@ ${rdockpath}/rbdock -i lignad_581.sdf -o C5s -r receptorp1.prm -p dock.prm  -n 1
 ${rdockpath}/sdrmd ligand_581.sdf C5.sd
 ${rdockpath}/sdrmd ligand_581.sdf C5s.sd
 
-#Same pattern for all MCS 
+#Same pattern for all MCS and pharmacophore 
 ${rdockpath}/sdtether ligand_581.sdf ligand_581.sdf ligand_r.sdf 'ccccccNC(=O)'
 ${rdockpath}/sdtether ligand_581.sdf ligand_581.sdf ligand_r.sdf 'ccccccNC(=O)N'
 ${rdockpath}/sdtether ligand_581.sdf ligand_581.sdf ligand_r.sdf 'CCCNC'
