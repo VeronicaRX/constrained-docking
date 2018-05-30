@@ -22,3 +22,5 @@ SECTION PHARMA
 	CONSTRAINTS_FILE /home/v/Desktop/pharma.restr
 END_SECTION
 
+#change pharma.restr into pharma2.restr for the second pharmacophore
+
