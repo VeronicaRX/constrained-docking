@@ -1,8 +1,31 @@
 #!/bin/bash
-pr4path="/Library/MGLTools/1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24"
-vinapath="/Users/veronicagueye/Desktop/autodock_vina_1_1_2_mac/bin"
-pythonpath="/Library/MGLTools/1.5.6/bin"
-babelpath="/usr/local/bin"
+#path to be modified
+#Using phamacophore implementation
+rdockpath="/home/v/Downloads/rDock_2013.1_src/bin"
+${rdockpath}/rbcavity -d -was -r receptorp.prm
+${rdockpath}/rbdock -i lignad_581.sdf -o S0 -r receptorp.prm -p dock.prm  -n 10
+${rdockpath}/rbdock -i lignad_581.sdf -o S1 -r receptorp1.prm -p dock_solv.prm  -n 10
+${rdockpath}/rbdock -i lignad_581.sdf -o S2 -r receptorp1.prm -p dock.prm  -n 100
+${rdockpath}/rbdock -i lignad_581.sdf -o S3 -r receptorp.prm -p dock_solv.prm  -n 100
+${rdockpath}/sdrmsd ligand_581.sdf S0.sd 
+#using sdtether implementation 
+${rdockpath}/sdtether ligand_581.sdf ligand_581.sdf ligand_r.sdf 'C(=O)'
+${rdockpath}/rbcavity -d -was -r receptor.prm
+${rdockpath}/rbdock -i lignad_581.sdf -o C5 -r receptorp1.prm -p dock_solv.prm  -n 10
+${rdockpath}/rbdock -i lignad_581.sdf -o C5s -r receptorp1.prm -p dock.prm  -n 10
+${rdockpath}/sdrmd ligand_581.sdf C5.sd
+${rdockpath}/sdrmd ligand_581.sdf C5s.sd
 
-${pythonpath}/pythonsh ${pr4path}/prepare_receptor4.py -r receptor.pdb -A bonds_hydrogens -U nphs_lps_waters_deleteAltB -o receptor.pdbqt
-${vinapath}/vina --receptor receptor.pdbqt --flex ligand_constrained.pdbqt  --ligand water.pdbqt --out ligand_constrained.pdbqt --log ligand_constrained.log --config vina.config
+#Same pattern for all MCS 
+${rdockpath}/sdtether ligand_581.sdf ligand_581.sdf ligand_r.sdf 'ccccccNC(=O)'
+${rdockpath}/sdtether ligand_581.sdf ligand_581.sdf ligand_r.sdf 'ccccccNC(=O)N'
+${rdockpath}/sdtether ligand_581.sdf ligand_581.sdf ligand_r.sdf 'CCCNC'
+${rdockpath}/sdtether ligand_581.sdf ligand_581.sdf ligand_r.sdf 'NC(=O)N'
+${rdockpath}/sdtether ligand_581.sdf ligand_581.sdf ligand_r.sdf 'C(O)'
+#then rbdock 
+
+
+
+
+
+
