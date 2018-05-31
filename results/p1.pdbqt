@@ -1,0 +1,387 @@
+MODEL 1
+REMARK VINA RESULT:      -1.8      0.000      0.000
+REMARK  The pdbqt file for using water as a ligand
+ROOT
+ATOM      1  OW  HOH   231      15.393  -5.020 -20.761  1.00  0.00    -0.411 OA
+ATOM      2  HW1 HOH   231      15.803  -5.926 -20.867  1.00  0.00     0.205 HD
+ATOM      3  HW2 HOH   231      16.016  -4.328 -21.123  1.00  0.00     0.205 HD
+ENDROOT
+TORSDOF 0
+BEGIN_RES UNL 0
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  C3_4 
+REMARK    2  A    between atoms: C3_4  and  N1_11 
+REMARK    3  A    between atoms: C4_5  and  N1_11 
+REMARK    4  A    between atoms: C4_5  and  N2_12 
+REMARK    5  A    between atoms: N2_12  and  C5_6 
+ROOT
+ATOM      2  C2  LIG d   1      13.026  -6.878 -11.554  0.00  0.00     0.177 C 
+ATOM      3  O2  LIG d   1      12.266  -6.232 -12.567  0.00  0.00    -0.221 OA
+ENDROOT
+BRANCH   2   1
+ATOM      1  C1  LIG d   1      13.137  -5.978 -10.334  0.00  0.00     0.038 C
+ENDBRANCH   2   1 
+BRANCH   2   4
+ATOM      4  C3  LIG d   1      12.387  -8.231 -11.243  0.00  0.00     0.163 C 
+BRANCH   4   5
+ATOM      5  N1  LIG d   1      13.157  -8.999 -10.280  0.00  0.00    -0.214 NA
+ATOM      6  C4  LIG d   1      14.349  -9.559 -10.588  0.00  0.00     0.364 C 
+ATOM      7  O1  LIG d   1      14.841  -9.497 -11.722  0.00  0.00    -0.243 OA
+ATOM      8  N2  LIG d   1      14.954 -10.206  -9.539  0.00  0.00    -0.191 NA
+BRANCH   8   9
+ATOM      9  C5  LIG d   1      16.252 -10.768  -9.481  0.00  0.00     0.086 A 
+ATOM     10  C10 LIG d   1      16.887 -11.342 -10.577  0.00  0.00     0.019 A 
+ATOM     11  C9  LIG d   1      18.156 -11.886 -10.437  0.00  0.00     0.002 A 
+ATOM     12  C8  LIG d   1      18.797 -11.861  -9.221  0.00  0.00     0.000 A 
+ATOM     13  C7  LIG d   1      18.179 -11.281  -8.136  0.00  0.00     0.002 A 
+ATOM     14  C6  LIG d   1      16.904 -10.748  -8.256  0.00  0.00     0.019 A 
+ENDBRANCH   8   9
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+END_RES UNL 0
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -1.5      3.672      3.697
+REMARK  The pdbqt file for using water as a ligand
+ROOT
+ATOM      1  OW  HOH   231       5.019  -2.889 -14.579  1.00  0.00    -0.411 OA
+ATOM      2  HW1 HOH   231       5.527  -2.161 -15.039  1.00  0.00     0.205 HD
+ATOM      3  HW2 HOH   231       4.482  -2.499 -13.832  1.00  0.00     0.205 HD
+ENDROOT
+TORSDOF 0
+BEGIN_RES UNL 0
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  C3_4 
+REMARK    2  A    between atoms: C3_4  and  N1_11 
+REMARK    3  A    between atoms: C4_5  and  N1_11 
+REMARK    4  A    between atoms: C4_5  and  N2_12 
+REMARK    5  A    between atoms: N2_12  and  C5_6 
+ROOT
+ATOM      2  C2  LIG d   1      13.026  -6.878 -11.554  0.00  0.00     0.177 C 
+ATOM      3  O2  LIG d   1      12.266  -6.232 -12.567  0.00  0.00    -0.221 OA
+ENDROOT
+BRANCH   2   1
+ATOM      1  C1  LIG d   1      13.137  -5.978 -10.334  0.00  0.00     0.038 C
+ENDBRANCH   2   1 
+BRANCH   2   4
+ATOM      4  C3  LIG d   1      12.387  -8.231 -11.243  0.00  0.00     0.163 C 
+BRANCH   4   5
+ATOM      5  N1  LIG d   1      13.157  -8.999 -10.280  0.00  0.00    -0.214 NA
+ATOM      6  C4  LIG d   1      14.349  -9.559 -10.588  0.00  0.00     0.364 C 
+ATOM      7  O1  LIG d   1      14.840  -9.498 -11.722  0.00  0.00    -0.243 OA
+ATOM      8  N2  LIG d   1      14.954 -10.206  -9.539  0.00  0.00    -0.191 NA
+BRANCH   8   9
+ATOM      9  C5  LIG d   1      16.252 -10.769  -9.481  0.00  0.00     0.086 A 
+ATOM     10  C10 LIG d   1      16.888 -11.340 -10.577  0.00  0.00     0.019 A 
+ATOM     11  C9  LIG d   1      18.157 -11.884 -10.437  0.00  0.00     0.002 A 
+ATOM     12  C8  LIG d   1      18.796 -11.862  -9.220  0.00  0.00     0.000 A 
+ATOM     13  C7  LIG d   1      18.177 -11.285  -8.134  0.00  0.00     0.002 A 
+ATOM     14  C6  LIG d   1      16.902 -10.751  -8.255  0.00  0.00     0.019 A 
+ENDBRANCH   8   9
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+END_RES UNL 0
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -1.4      1.715      1.715
+REMARK  The pdbqt file for using water as a ligand
+ROOT
+ATOM      1  OW  HOH   231      18.911  -6.959 -16.733  1.00  0.00    -0.411 OA
+ATOM      2  HW1 HOH   231      19.321  -7.864 -16.838  1.00  0.00     0.205 HD
+ATOM      3  HW2 HOH   231      19.535  -6.267 -17.094  1.00  0.00     0.205 HD
+ENDROOT
+TORSDOF 0
+BEGIN_RES UNL 0
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  C3_4 
+REMARK    2  A    between atoms: C3_4  and  N1_11 
+REMARK    3  A    between atoms: C4_5  and  N1_11 
+REMARK    4  A    between atoms: C4_5  and  N2_12 
+REMARK    5  A    between atoms: N2_12  and  C5_6 
+ROOT
+ATOM      2  C2  LIG d   1      13.026  -6.878 -11.554  0.00  0.00     0.177 C 
+ATOM      3  O2  LIG d   1      12.266  -6.232 -12.567  0.00  0.00    -0.221 OA
+ENDROOT
+BRANCH   2   1
+ATOM      1  C1  LIG d   1      13.137  -5.978 -10.334  0.00  0.00     0.038 C
+ENDBRANCH   2   1 
+BRANCH   2   4
+ATOM      4  C3  LIG d   1      12.387  -8.231 -11.243  0.00  0.00     0.163 C 
+BRANCH   4   5
+ATOM      5  N1  LIG d   1      13.158  -9.000 -10.282  0.00  0.00    -0.214 NA
+ATOM      6  C4  LIG d   1      14.349  -9.560 -10.591  0.00  0.00     0.364 C 
+ATOM      7  O1  LIG d   1      14.840  -9.498 -11.726  0.00  0.00    -0.243 OA
+ATOM      8  N2  LIG d   1      14.956 -10.208  -9.544  0.00  0.00    -0.191 NA
+BRANCH   8   9
+ATOM      9  C5  LIG d   1      16.254 -10.771  -9.488  0.00  0.00     0.086 A 
+ATOM     10  C10 LIG d   1      16.891 -11.336 -10.587  0.00  0.00     0.019 A 
+ATOM     11  C9  LIG d   1      18.159 -11.881 -10.449  0.00  0.00     0.002 A 
+ATOM     12  C8  LIG d   1      18.798 -11.865  -9.232  0.00  0.00     0.000 A 
+ATOM     13  C7  LIG d   1      18.178 -11.294  -8.143  0.00  0.00     0.002 A 
+ATOM     14  C6  LIG d   1      16.904 -10.760  -8.262  0.00  0.00     0.019 A 
+ENDBRANCH   8   9
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+END_RES UNL 0
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -1.3      3.463      6.404
+REMARK  The pdbqt file for using water as a ligand
+ROOT
+ATOM      1  OW  HOH   231      11.363 -11.664  -0.994  1.00  0.00    -0.411 OA
+ATOM      2  HW1 HOH   231      11.302 -11.982  -0.048  1.00  0.00     0.205 HD
+ATOM      3  HW2 HOH   231      10.979 -12.358  -1.603  1.00  0.00     0.205 HD
+ENDROOT
+TORSDOF 0
+BEGIN_RES UNL 0
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  C3_4 
+REMARK    2  A    between atoms: C3_4  and  N1_11 
+REMARK    3  A    between atoms: C4_5  and  N1_11 
+REMARK    4  A    between atoms: C4_5  and  N2_12 
+REMARK    5  A    between atoms: N2_12  and  C5_6 
+ROOT
+ATOM      2  C2  LIG d   1      13.026  -6.878 -11.554  0.00  0.00     0.177 C 
+ATOM      3  O2  LIG d   1      12.266  -6.232 -12.567  0.00  0.00    -0.221 OA
+ENDROOT
+BRANCH   2   1
+ATOM      1  C1  LIG d   1      13.137  -5.978 -10.334  0.00  0.00     0.038 C
+ENDBRANCH   2   1 
+BRANCH   2   4
+ATOM      4  C3  LIG d   1      12.387  -8.231 -11.243  0.00  0.00     0.163 C 
+BRANCH   4   5
+ATOM      5  N1  LIG d   1      13.157  -9.000 -10.280  0.00  0.00    -0.214 NA
+ATOM      6  C4  LIG d   1      14.349  -9.559 -10.589  0.00  0.00     0.364 C 
+ATOM      7  O1  LIG d   1      14.840  -9.498 -11.723  0.00  0.00    -0.243 OA
+ATOM      8  N2  LIG d   1      14.954 -10.207  -9.540  0.00  0.00    -0.191 NA
+BRANCH   8   9
+ATOM      9  C5  LIG d   1      16.252 -10.769  -9.483  0.00  0.00     0.086 A 
+ATOM     10  C10 LIG d   1      16.891 -11.334 -10.581  0.00  0.00     0.019 A 
+ATOM     11  C9  LIG d   1      18.159 -11.879 -10.441  0.00  0.00     0.002 A 
+ATOM     12  C8  LIG d   1      18.796 -11.864  -9.223  0.00  0.00     0.000 A 
+ATOM     13  C7  LIG d   1      18.175 -11.293  -8.135  0.00  0.00     0.002 A 
+ATOM     14  C6  LIG d   1      16.900 -10.759  -8.256  0.00  0.00     0.019 A 
+ENDBRANCH   8   9
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+END_RES UNL 0
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -1.3      2.876      2.876
+REMARK  The pdbqt file for using water as a ligand
+ROOT
+ATOM      1  OW  HOH   231       8.160 -11.159 -19.776  1.00  0.00    -0.411 OA
+ATOM      2  HW1 HOH   231       8.168 -11.612 -20.667  1.00  0.00     0.205 HD
+ATOM      3  HW2 HOH   231       8.127 -10.169 -19.906  1.00  0.00     0.205 HD
+ENDROOT
+TORSDOF 0
+BEGIN_RES UNL 0
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  C3_4 
+REMARK    2  A    between atoms: C3_4  and  N1_11 
+REMARK    3  A    between atoms: C4_5  and  N1_11 
+REMARK    4  A    between atoms: C4_5  and  N2_12 
+REMARK    5  A    between atoms: N2_12  and  C5_6 
+ROOT
+ATOM      2  C2  LIG d   1      13.026  -6.878 -11.554  0.00  0.00     0.177 C 
+ATOM      3  O2  LIG d   1      12.266  -6.232 -12.567  0.00  0.00    -0.221 OA
+ENDROOT
+BRANCH   2   1
+ATOM      1  C1  LIG d   1      13.137  -5.978 -10.334  0.00  0.00     0.038 C
+ENDBRANCH   2   1 
+BRANCH   2   4
+ATOM      4  C3  LIG d   1      12.387  -8.231 -11.243  0.00  0.00     0.163 C 
+BRANCH   4   5
+ATOM      5  N1  LIG d   1      13.159  -9.001 -10.283  0.00  0.00    -0.214 NA
+ATOM      6  C4  LIG d   1      14.349  -9.562 -10.595  0.00  0.00     0.364 C 
+ATOM      7  O1  LIG d   1      14.837  -9.501 -11.731  0.00  0.00    -0.243 OA
+ATOM      8  N2  LIG d   1      14.956 -10.211  -9.548  0.00  0.00    -0.191 NA
+BRANCH   8   9
+ATOM      9  C5  LIG d   1      16.254 -10.776  -9.495  0.00  0.00     0.086 A 
+ATOM     10  C10 LIG d   1      16.884 -11.350 -10.593  0.00  0.00     0.019 A 
+ATOM     11  C9  LIG d   1      18.152 -11.897 -10.457  0.00  0.00     0.002 A 
+ATOM     12  C8  LIG d   1      18.797 -11.873  -9.243  0.00  0.00     0.000 A 
+ATOM     13  C7  LIG d   1      18.184 -11.293  -8.156  0.00  0.00     0.002 A 
+ATOM     14  C6  LIG d   1      16.910 -10.757  -8.272  0.00  0.00     0.019 A 
+ENDBRANCH   8   9
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+END_RES UNL 0
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -1.2      3.490      5.036
+REMARK  The pdbqt file for using water as a ligand
+ROOT
+ATOM      1  OW  HOH   231      10.598  -0.841  -5.317  1.00  0.00    -0.411 OA
+ATOM      2  HW1 HOH   231       9.989  -0.106  -5.614  1.00  0.00     0.205 HD
+ATOM      3  HW2 HOH   231      10.065  -1.671  -5.157  1.00  0.00     0.205 HD
+ENDROOT
+TORSDOF 0
+BEGIN_RES UNL 0
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  C3_4 
+REMARK    2  A    between atoms: C3_4  and  N1_11 
+REMARK    3  A    between atoms: C4_5  and  N1_11 
+REMARK    4  A    between atoms: C4_5  and  N2_12 
+REMARK    5  A    between atoms: N2_12  and  C5_6 
+ROOT
+ATOM      2  C2  LIG d   1      13.026  -6.878 -11.554  0.00  0.00     0.177 C 
+ATOM      3  O2  LIG d   1      12.266  -6.232 -12.567  0.00  0.00    -0.221 OA
+ENDROOT
+BRANCH   2   1
+ATOM      1  C1  LIG d   1      13.137  -5.978 -10.334  0.00  0.00     0.038 C
+ENDBRANCH   2   1 
+BRANCH   2   4
+ATOM      4  C3  LIG d   1      12.387  -8.231 -11.243  0.00  0.00     0.163 C 
+BRANCH   4   5
+ATOM      5  N1  LIG d   1      13.158  -9.000 -10.282  0.00  0.00    -0.214 NA
+ATOM      6  C4  LIG d   1      14.350  -9.560 -10.592  0.00  0.00     0.364 C 
+ATOM      7  O1  LIG d   1      14.840  -9.497 -11.727  0.00  0.00    -0.243 OA
+ATOM      8  N2  LIG d   1      14.956 -10.208  -9.545  0.00  0.00    -0.191 NA
+BRANCH   8   9
+ATOM      9  C5  LIG d   1      16.255 -10.770  -9.489  0.00  0.00     0.086 A 
+ATOM     10  C10 LIG d   1      16.883 -11.354 -10.583  0.00  0.00     0.019 A 
+ATOM     11  C9  LIG d   1      18.152 -11.898 -10.445  0.00  0.00     0.002 A 
+ATOM     12  C8  LIG d   1      18.800 -11.862  -9.233  0.00  0.00     0.000 A 
+ATOM     13  C7  LIG d   1      18.188 -11.273  -8.150  0.00  0.00     0.002 A 
+ATOM     14  C6  LIG d   1      16.913 -10.739  -8.268  0.00  0.00     0.019 A 
+ENDBRANCH   8   9
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+END_RES UNL 0
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -1.2      3.046      3.970
+REMARK  The pdbqt file for using water as a ligand
+ROOT
+ATOM      1  OW  HOH   231      23.687  -9.314 -11.479  1.00  0.00    -0.411 OA
+ATOM      2  HW1 HOH   231      23.626  -9.631 -10.533  1.00  0.00     0.205 HD
+ATOM      3  HW2 HOH   231      23.303 -10.007 -12.088  1.00  0.00     0.205 HD
+ENDROOT
+TORSDOF 0
+BEGIN_RES UNL 0
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  C3_4 
+REMARK    2  A    between atoms: C3_4  and  N1_11 
+REMARK    3  A    between atoms: C4_5  and  N1_11 
+REMARK    4  A    between atoms: C4_5  and  N2_12 
+REMARK    5  A    between atoms: N2_12  and  C5_6 
+ROOT
+ATOM      2  C2  LIG d   1      13.026  -6.878 -11.554  0.00  0.00     0.177 C 
+ATOM      3  O2  LIG d   1      12.266  -6.232 -12.567  0.00  0.00    -0.221 OA
+ENDROOT
+BRANCH   2   1
+ATOM      1  C1  LIG d   1      13.137  -5.978 -10.334  0.00  0.00     0.038 C
+ENDBRANCH   2   1 
+BRANCH   2   4
+ATOM      4  C3  LIG d   1      12.387  -8.231 -11.243  0.00  0.00     0.163 C 
+BRANCH   4   5
+ATOM      5  N1  LIG d   1      13.157  -8.999 -10.280  0.00  0.00    -0.214 NA
+ATOM      6  C4  LIG d   1      14.349  -9.558 -10.587  0.00  0.00     0.364 C 
+ATOM      7  O1  LIG d   1      14.842  -9.496 -11.722  0.00  0.00    -0.243 OA
+ATOM      8  N2  LIG d   1      14.954 -10.206  -9.539  0.00  0.00    -0.191 NA
+BRANCH   8   9
+ATOM      9  C5  LIG d   1      16.253 -10.767  -9.480  0.00  0.00     0.086 A 
+ATOM     10  C10 LIG d   1      16.890 -11.336 -10.577  0.00  0.00     0.019 A 
+ATOM     11  C9  LIG d   1      18.159 -11.880 -10.437  0.00  0.00     0.002 A 
+ATOM     12  C8  LIG d   1      18.797 -11.859  -9.219  0.00  0.00     0.000 A 
+ATOM     13  C7  LIG d   1      18.177 -11.284  -8.133  0.00  0.00     0.002 A 
+ATOM     14  C6  LIG d   1      16.902 -10.751  -8.254  0.00  0.00     0.019 A 
+ENDBRANCH   8   9
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+END_RES UNL 0
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -1.2      2.192      2.192
+REMARK  The pdbqt file for using water as a ligand
+ROOT
+ATOM      1  OW  HOH   231      11.482  -4.023 -14.715  1.00  0.00    -0.411 OA
+ATOM      2  HW1 HOH   231      10.748  -3.350 -14.797  1.00  0.00     0.205 HD
+ATOM      3  HW2 HOH   231      11.407  -4.493 -13.836  1.00  0.00     0.205 HD
+ENDROOT
+TORSDOF 0
+BEGIN_RES UNL 0
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  C3_4 
+REMARK    2  A    between atoms: C3_4  and  N1_11 
+REMARK    3  A    between atoms: C4_5  and  N1_11 
+REMARK    4  A    between atoms: C4_5  and  N2_12 
+REMARK    5  A    between atoms: N2_12  and  C5_6 
+ROOT
+ATOM      2  C2  LIG d   1      13.026  -6.878 -11.554  0.00  0.00     0.177 C 
+ATOM      3  O2  LIG d   1      12.266  -6.232 -12.567  0.00  0.00    -0.221 OA
+ENDROOT
+BRANCH   2   1
+ATOM      1  C1  LIG d   1      13.137  -5.978 -10.334  0.00  0.00     0.038 C
+ENDBRANCH   2   1 
+BRANCH   2   4
+ATOM      4  C3  LIG d   1      12.387  -8.231 -11.243  0.00  0.00     0.163 C 
+BRANCH   4   5
+ATOM      5  N1  LIG d   1      13.159  -9.001 -10.283  0.00  0.00    -0.214 NA
+ATOM      6  C4  LIG d   1      14.351  -9.559 -10.594  0.00  0.00     0.364 C 
+ATOM      7  O1  LIG d   1      14.840  -9.495 -11.729  0.00  0.00    -0.243 OA
+ATOM      8  N2  LIG d   1      14.958 -10.209  -9.547  0.00  0.00    -0.191 NA
+BRANCH   8   9
+ATOM      9  C5  LIG d   1      16.256 -10.770  -9.492  0.00  0.00     0.086 A 
+ATOM     10  C10 LIG d   1      16.891 -11.337 -10.591  0.00  0.00     0.019 A 
+ATOM     11  C9  LIG d   1      18.161 -11.881 -10.455  0.00  0.00     0.002 A 
+ATOM     12  C8  LIG d   1      18.801 -11.863  -9.238  0.00  0.00     0.000 A 
+ATOM     13  C7  LIG d   1      18.183 -11.291  -8.150  0.00  0.00     0.002 A 
+ATOM     14  C6  LIG d   1      16.908 -10.757  -8.267  0.00  0.00     0.019 A 
+ENDBRANCH   8   9
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+END_RES UNL 0
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -1.1      3.176      3.584
+REMARK  The pdbqt file for using water as a ligand
+ROOT
+ATOM      1  OW  HOH   231      12.151 -16.357 -19.251  1.00  0.00    -0.411 OA
+ATOM      2  HW1 HOH   231      11.691 -16.310 -20.137  1.00  0.00     0.205 HD
+ATOM      3  HW2 HOH   231      12.075 -17.284 -18.885  1.00  0.00     0.205 HD
+ENDROOT
+TORSDOF 0
+BEGIN_RES UNL 0
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  C3_4 
+REMARK    2  A    between atoms: C3_4  and  N1_11 
+REMARK    3  A    between atoms: C4_5  and  N1_11 
+REMARK    4  A    between atoms: C4_5  and  N2_12 
+REMARK    5  A    between atoms: N2_12  and  C5_6 
+ROOT
+ATOM      2  C2  LIG d   1      13.026  -6.878 -11.554  0.00  0.00     0.177 C 
+ATOM      3  O2  LIG d   1      12.266  -6.232 -12.567  0.00  0.00    -0.221 OA
+ENDROOT
+BRANCH   2   1
+ATOM      1  C1  LIG d   1      13.137  -5.978 -10.334  0.00  0.00     0.038 C
+ENDBRANCH   2   1 
+BRANCH   2   4
+ATOM      4  C3  LIG d   1      12.387  -8.231 -11.243  0.00  0.00     0.163 C 
+BRANCH   4   5
+ATOM      5  N1  LIG d   1      13.159  -9.001 -10.283  0.00  0.00    -0.214 NA
+ATOM      6  C4  LIG d   1      14.350  -9.559 -10.593  0.00  0.00     0.364 C 
+ATOM      7  O1  LIG d   1      14.840  -9.495 -11.728  0.00  0.00    -0.243 OA
+ATOM      8  N2  LIG d   1      14.957 -10.208  -9.547  0.00  0.00    -0.191 NA
+BRANCH   8   9
+ATOM      9  C5  LIG d   1      16.256 -10.770  -9.492  0.00  0.00     0.086 A 
+ATOM     10  C10 LIG d   1      16.891 -11.337 -10.591  0.00  0.00     0.019 A 
+ATOM     11  C9  LIG d   1      18.161 -11.881 -10.454  0.00  0.00     0.002 A 
+ATOM     12  C8  LIG d   1      18.801 -11.863  -9.238  0.00  0.00     0.000 A 
+ATOM     13  C7  LIG d   1      18.182 -11.291  -8.149  0.00  0.00     0.002 A 
+ATOM     14  C6  LIG d   1      16.907 -10.757  -8.267  0.00  0.00     0.019 A 
+ENDBRANCH   8   9
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+END_RES UNL 0
+ENDMDL
