@@ -1,0 +1,1400 @@
+ligand.pdb
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   14.7062   -5.2099  -11.6376 C   0  0  0  0  0  0
+   17.1976  -10.8757  -11.1479 C   0  0  0  0  0  0
+   13.9079   -6.3549  -12.2394 C   0  0  0  0  0  0
+   13.2000   -7.2083  -11.1876 C   0  0  0  0  0  0
+   14.9440   -8.8816  -10.7398 C   0  0  0  0  0  0
+   16.8509  -10.3023   -9.9301 C   0  0  0  0  0  0
+   17.5593  -10.6553   -8.7904 C   0  0  0  0  0  0
+   18.6089  -11.5582   -8.8737 C   0  0  0  0  0  0
+   18.9387  -12.1334  -10.0801 C   0  0  0  0  0  0
+   18.2401  -11.7896  -11.2129 C   0  0  0  0  0  0
+   14.1334   -7.8897  -10.3070 N   0  0  0  0  0  0
+   15.7919   -9.3745   -9.7792 N   0  0  0  0  0  0
+   14.9112   -9.3098  -11.9008 O   0  0  0  0  0  0
+   12.9396   -5.8475  -13.1482 O   0  0  0  0  0  0
+  2 10  2  0  0  0
+  2  6  1  0  0  0
+  3  4  1  0  0  0
+  3  1  1  0  0  0
+  4 11  1  0  0  0
+  5 11  1  0  0  0
+  5 12  1  0  0  0
+  6  7  2  0  0  0
+  7  8  1  0  0  0
+  9  8  2  0  0  0
+ 10  9  1  0  0  0
+ 12  6  1  0  0  0
+ 13  5  2  0  0  0
+ 14  3  1  0  0  0
+M  END
+>  <CHROM.1>
+-63.97125023,-67.99907837,0.01708895,15.75631163,-8.99092188,-10.84638212
+2.98471847,0.88254581,-1.76590153
+
+>  <Name>
+ligand.pdb
+
+>  <RI>
+9.13971e+06
+
+>  <Rbt.Current_Directory>
+/home/v/Downloads/rDock_2013.1_src/bin
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/v/Downloads/rDock_2013.1_src/data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/home/v/Desktop/receptorr.prm
+
+>  <SCORE>
+7.77176
+
+>  <SCORE.INTER>
+8.4
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+0
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+3
+
+>  <SCORE.INTER.VDW>
+0
+
+>  <SCORE.INTER.norm>
+0.6
+
+>  <SCORE.INTRA>
+-0.628237
+
+>  <SCORE.INTRA.DIHEDRAL>
+-1.51944
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+1.6411
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.131483
+
+>  <SCORE.INTRA.VDW.0>
+-0.639572
+
+>  <SCORE.INTRA.norm>
+-0.0448741
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+0
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0
+
+>  <SCORE.SYSTEM.norm>
+0
+
+>  <SCORE.heavy>
+14
+
+>  <SCORE.norm>
+0.555126
+
+$$$$
+ligand.pdb
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   14.0732   -4.9519  -10.9038 C   0  0  0  0  0  0
+   17.5180  -10.0902  -10.4818 C   0  0  0  0  0  0
+   13.3871   -6.2522  -11.2901 C   0  0  0  0  0  0
+   13.0038   -7.1077  -10.0832 C   0  0  0  0  0  0
+   15.0520   -8.4426   -9.8289 C   0  0  0  0  0  0
+   17.2723   -9.4715   -9.2615 C   0  0  0  0  0  0
+   18.1974   -9.6071   -8.2363 C   0  0  0  0  0  0
+   19.3582  -10.3394   -8.4369 C   0  0  0  0  0  0
+   19.5895  -10.9614   -9.6430 C   0  0  0  0  0  0
+   18.6765  -10.8328  -10.6626 C   0  0  0  0  0  0
+   14.1630   -7.5544   -9.3299 N   0  0  0  0  0  0
+   16.1087   -8.7101   -8.9944 N   0  0  0  0  0  0
+   14.9126   -8.9724  -10.9390 O   0  0  0  0  0  0
+   12.2173   -5.9774  -12.0498 O   0  0  0  0  0  0
+  2 10  2  0  0  0
+  2  6  1  0  0  0
+  3  4  1  0  0  0
+  3  1  1  0  0  0
+  4 11  1  0  0  0
+  5 11  1  0  0  0
+  5 12  1  0  0  0
+  6  7  2  0  0  0
+  7  8  1  0  0  0
+  9  8  2  0  0  0
+ 10  9  1  0  0  0
+ 12  6  1  0  0  0
+ 13  5  2  0  0  0
+ 14  3  1  0  0  0
+M  END
+>  <CHROM.1>
+-63.60364443,-67.97821897,0.01708895,15.84529584,-8.43312542,-10.06231520
+3.13736573,0.67937631,-1.94994618
+
+>  <Name>
+ligand.pdb
+
+>  <RI>
+9.13971e+06
+
+>  <Rbt.Current_Directory>
+/home/v/Downloads/rDock_2013.1_src/bin
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/v/Downloads/rDock_2013.1_src/data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/home/v/Desktop/receptorr.prm
+
+>  <SCORE>
+7.77175
+
+>  <SCORE.INTER>
+8.4
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+0
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+3
+
+>  <SCORE.INTER.VDW>
+0
+
+>  <SCORE.INTER.norm>
+0.6
+
+>  <SCORE.INTRA>
+-0.628254
+
+>  <SCORE.INTRA.DIHEDRAL>
+-1.52935
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+1.6411
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.136424
+
+>  <SCORE.INTRA.VDW.0>
+-0.639572
+
+>  <SCORE.INTRA.norm>
+-0.0448753
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+0
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0
+
+>  <SCORE.SYSTEM.norm>
+0
+
+>  <SCORE.heavy>
+14
+
+>  <SCORE.norm>
+0.555125
+
+$$$$
+ligand.pdb
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   13.5188   -5.9672  -11.1576 C   0  0  0  0  0  0
+   17.3520  -10.8719  -11.1202 C   0  0  0  0  0  0
+   13.1034   -7.1629  -11.9993 C   0  0  0  0  0  0
+   12.5629   -8.3233  -11.1643 C   0  0  0  0  0  0
+   14.6367   -9.5692  -10.7297 C   0  0  0  0  0  0
+   16.7738  -10.5871   -9.8887 C   0  0  0  0  0  0
+   17.4560  -10.9219   -8.7277 C   0  0  0  0  0  0
+   18.7055  -11.5197   -8.8011 C   0  0  0  0  0  0
+   19.2669  -11.8120  -10.0236 C   0  0  0  0  0  0
+   18.5960  -11.4846  -11.1777 C   0  0  0  0  0  0
+   13.5668   -8.8798  -10.2736 N   0  0  0  0  0  0
+   15.5035   -9.9777   -9.7467 N   0  0  0  0  0  0
+   14.8077   -9.8156  -11.9308 O   0  0  0  0  0  0
+   12.1128   -6.7734  -12.9416 O   0  0  0  0  0  0
+  2 10  2  0  0  0
+  2  6  1  0  0  0
+  3  4  1  0  0  0
+  3  1  1  0  0  0
+  4 11  1  0  0  0
+  5 11  1  0  0  0
+  5 12  1  0  0  0
+  6  7  2  0  0  0
+  7  8  1  0  0  0
+  9  8  2  0  0  0
+ 10  9  1  0  0  0
+ 12  6  1  0  0  0
+ 13  5  2  0  0  0
+ 14  3  1  0  0  0
+M  END
+>  <CHROM.1>
+-63.75285786,-68.89161633,0.01708895,15.45344532,-9.45749738,-10.75040274
+2.83587939,0.64005629,-1.53009254
+
+>  <Name>
+ligand.pdb
+
+>  <RI>
+9.13971e+06
+
+>  <Rbt.Current_Directory>
+/home/v/Downloads/rDock_2013.1_src/bin
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/v/Downloads/rDock_2013.1_src/data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/home/v/Desktop/receptorr.prm
+
+>  <SCORE>
+7.77147
+
+>  <SCORE.INTER>
+8.4
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+0
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+3
+
+>  <SCORE.INTER.VDW>
+0
+
+>  <SCORE.INTER.norm>
+0.6
+
+>  <SCORE.INTRA>
+-0.628528
+
+>  <SCORE.INTRA.DIHEDRAL>
+-1.51329
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+1.6411
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.128117
+
+>  <SCORE.INTRA.VDW.0>
+-0.639572
+
+>  <SCORE.INTRA.norm>
+-0.0448949
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+0
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0
+
+>  <SCORE.SYSTEM.norm>
+0
+
+>  <SCORE.heavy>
+14
+
+>  <SCORE.norm>
+0.555105
+
+$$$$
+ligand.pdb
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   13.2530   -6.3867  -10.5609 C   0  0  0  0  0  0
+   16.6907  -11.4644   -9.5937 C   0  0  0  0  0  0
+   12.7185   -7.6819  -11.1504 C   0  0  0  0  0  0
+   12.1059   -8.6087  -10.1009 C   0  0  0  0  0  0
+   14.0885   -9.9060   -9.4463 C   0  0  0  0  0  0
+   16.1588  -10.9081   -8.4363 C   0  0  0  0  0  0
+   16.8357  -11.0688   -7.2358 C   0  0  0  0  0  0
+   18.0354  -11.7641   -7.1995 C   0  0  0  0  0  0
+   18.5503  -12.3248   -8.3465 C   0  0  0  0  0  0
+   17.8841  -12.1709   -9.5390 C   0  0  0  0  0  0
+   13.0819   -9.0624   -9.1249 N   0  0  0  0  0  0
+   14.9406  -10.1868   -8.4072 N   0  0  0  0  0  0
+   14.2178  -10.3876  -10.5794 O   0  0  0  0  0  0
+   11.7393   -7.3973  -12.1409 O   0  0  0  0  0  0
+  2 10  2  0  0  0
+  2  6  1  0  0  0
+  3  4  1  0  0  0
+  3  1  1  0  0  0
+  4 11  1  0  0  0
+  5 11  1  0  0  0
+  5 12  1  0  0  0
+  6  7  2  0  0  0
+  7  8  1  0  0  0
+  9  8  2  0  0  0
+ 10  9  1  0  0  0
+ 12  6  1  0  0  0
+ 13  5  2  0  0  0
+ 14  3  1  0  0  0
+M  END
+>  <CHROM.1>
+-63.47399501,-68.40542400,0.01708895,14.91223076,-9.86547105,-9.49316787
+2.84935404,0.71310836,-1.72478798
+
+>  <Name>
+ligand.pdb
+
+>  <RI>
+9.13971e+06
+
+>  <Rbt.Current_Directory>
+/home/v/Downloads/rDock_2013.1_src/bin
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/v/Downloads/rDock_2013.1_src/data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/home/v/Desktop/receptorr.prm
+
+>  <SCORE>
+7.77159
+
+>  <SCORE.INTER>
+8.4
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+0
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+3
+
+>  <SCORE.INTER.VDW>
+0
+
+>  <SCORE.INTER.norm>
+0.6
+
+>  <SCORE.INTRA>
+-0.628406
+
+>  <SCORE.INTRA.DIHEDRAL>
+-1.52695
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+1.6411
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.135068
+
+>  <SCORE.INTRA.VDW.0>
+-0.639572
+
+>  <SCORE.INTRA.norm>
+-0.0448861
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+0
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0
+
+>  <SCORE.SYSTEM.norm>
+0
+
+>  <SCORE.heavy>
+14
+
+>  <SCORE.norm>
+0.555114
+
+$$$$
+ligand.pdb
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   13.5521   -6.8031  -11.4363 C   0  0  0  0  0  0
+   17.9194  -11.1103  -10.5237 C   0  0  0  0  0  0
+   13.2739   -8.1749  -12.0293 C   0  0  0  0  0  0
+   12.8597   -9.2068  -10.9809 C   0  0  0  0  0  0
+   15.0628  -10.0947  -10.3485 C   0  0  0  0  0  0
+   17.2965  -10.6787   -9.3584 C   0  0  0  0  0  0
+   18.0001  -10.7131   -8.1630 C   0  0  0  0  0  0
+   19.3131  -11.1594   -8.1393 C   0  0  0  0  0  0
+   19.9202  -11.5987   -9.2941 C   0  0  0  0  0  0
+   19.2286  -11.5690  -10.4817 C   0  0  0  0  0  0
+   13.9125   -9.4679  -10.0141 N   0  0  0  0  0  0
+   15.9606  -10.2110   -9.3165 N   0  0  0  0  0  0
+   15.2765  -10.5323  -11.4867 O   0  0  0  0  0  0
+   12.2509   -8.0811  -13.0120 O   0  0  0  0  0  0
+  2 10  2  0  0  0
+  2  6  1  0  0  0
+  3  4  1  0  0  0
+  3  1  1  0  0  0
+  4 11  1  0  0  0
+  5 11  1  0  0  0
+  5 12  1  0  0  0
+  6  7  2  0  0  0
+  7  8  1  0  0  0
+  9  8  2  0  0  0
+ 10  9  1  0  0  0
+ 12  6  1  0  0  0
+ 13  5  2  0  0  0
+ 14  3  1  0  0  0
+M  END
+>  <CHROM.1>
+-63.51717911,-68.09471712,0.01708895,15.86322862,-9.89397747,-10.40068218
+2.81935653,0.51491708,-1.69588286
+
+>  <Name>
+ligand.pdb
+
+>  <RI>
+9.13971e+06
+
+>  <Rbt.Current_Directory>
+/home/v/Downloads/rDock_2013.1_src/bin
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/v/Downloads/rDock_2013.1_src/data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/home/v/Desktop/receptorr.prm
+
+>  <SCORE>
+7.77172
+
+>  <SCORE.INTER>
+8.4
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+0
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+3
+
+>  <SCORE.INTER.VDW>
+0
+
+>  <SCORE.INTER.norm>
+0.6
+
+>  <SCORE.INTRA>
+-0.628284
+
+>  <SCORE.INTRA.DIHEDRAL>
+-1.52999
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+1.6411
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.136711
+
+>  <SCORE.INTRA.VDW.0>
+-0.639572
+
+>  <SCORE.INTRA.norm>
+-0.0448774
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+0
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0
+
+>  <SCORE.SYSTEM.norm>
+0
+
+>  <SCORE.heavy>
+14
+
+>  <SCORE.norm>
+0.555123
+
+$$$$
+ligand.pdb
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   14.0149   -6.2804  -11.8289 C   0  0  0  0  0  0
+   16.3800  -11.9770  -11.0094 C   0  0  0  0  0  0
+   13.1875   -7.4455  -12.3475 C   0  0  0  0  0  0
+   12.4767   -8.2160  -11.2355 C   0  0  0  0  0  0
+   14.1852   -9.9008  -10.7024 C   0  0  0  0  0  0
+   16.0694  -11.3136   -9.8281 C   0  0  0  0  0  0
+   16.7885  -11.6073   -8.6784 C   0  0  0  0  0  0
+   17.8133  -12.5413   -8.7165 C   0  0  0  0  0  0
+   18.1072  -13.2053   -9.8861 C   0  0  0  0  0  0
+   17.3978  -12.9204  -11.0285 C   0  0  0  0  0  0
+   13.4078   -8.8608  -10.3254 N   0  0  0  0  0  0
+   15.0371  -10.3499   -9.7240 N   0  0  0  0  0  0
+   14.1213  -10.4056  -11.8310 O   0  0  0  0  0  0
+   12.2178   -6.9778  -13.2759 O   0  0  0  0  0  0
+  2 10  2  0  0  0
+  2  6  1  0  0  0
+  3  4  1  0  0  0
+  3  1  1  0  0  0
+  4 11  1  0  0  0
+  5 11  1  0  0  0
+  5 12  1  0  0  0
+  6  7  2  0  0  0
+  7  8  1  0  0  0
+  9  8  2  0  0  0
+ 10  9  1  0  0  0
+ 12  6  1  0  0  0
+ 13  5  2  0  0  0
+ 14  3  1  0  0  0
+M  END
+>  <CHROM.1>
+-64.09754123,-68.46156331,0.01708895,14.99187804,-10.03639352,-10.81216628
+3.03020366,0.90487072,-1.87248566
+
+>  <Name>
+ligand.pdb
+
+>  <RI>
+9.13971e+06
+
+>  <Rbt.Current_Directory>
+/home/v/Downloads/rDock_2013.1_src/bin
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/v/Downloads/rDock_2013.1_src/data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/home/v/Desktop/receptorr.prm
+
+>  <SCORE>
+7.77165
+
+>  <SCORE.INTER>
+8.4
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+0
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+3
+
+>  <SCORE.INTER.VDW>
+0
+
+>  <SCORE.INTER.norm>
+0.6
+
+>  <SCORE.INTRA>
+-0.628353
+
+>  <SCORE.INTRA.DIHEDRAL>
+-1.50984
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+1.6411
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.126567
+
+>  <SCORE.INTRA.VDW.0>
+-0.639572
+
+>  <SCORE.INTRA.norm>
+-0.0448823
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+0
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0
+
+>  <SCORE.SYSTEM.norm>
+0
+
+>  <SCORE.heavy>
+14
+
+>  <SCORE.norm>
+0.555118
+
+$$$$
+ligand.pdb
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   14.8325   -5.0914   -9.7994 C   0  0  0  0  0  0
+   16.5499  -10.9281  -11.0783 C   0  0  0  0  0  0
+   13.8073   -5.9560  -10.5149 C   0  0  0  0  0  0
+   13.1400   -6.9778   -9.5949 C   0  0  0  0  0  0
+   14.6784   -8.8784   -9.8462 C   0  0  0  0  0  0
+   16.4631  -10.6418   -9.7209 C   0  0  0  0  0  0
+   17.2696  -11.3361   -8.8305 C   0  0  0  0  0  0
+   18.1601  -12.2922   -9.2961 C   0  0  0  0  0  0
+   18.2316  -12.5814  -10.6401 C   0  0  0  0  0  0
+   17.4344  -11.8986  -11.5277 C   0  0  0  0  0  0
+   14.0843   -7.9473   -9.0663 N   0  0  0  0  0  0
+   15.5766   -9.6774   -9.1833 N   0  0  0  0  0  0
+   14.4217   -9.0003  -11.0511 O   0  0  0  0  0  0
+   12.8025   -5.1366  -11.0981 O   0  0  0  0  0  0
+  2 10  2  0  0  0
+  2  6  1  0  0  0
+  3  4  1  0  0  0
+  3  1  1  0  0  0
+  4 11  1  0  0  0
+  5 11  1  0  0  0
+  5 12  1  0  0  0
+  6  7  2  0  0  0
+  7  8  1  0  0  0
+  9  8  2  0  0  0
+ 10  9  1  0  0  0
+ 12  6  1  0  0  0
+ 13  5  2  0  0  0
+ 14  3  1  0  0  0
+M  END
+>  <CHROM.1>
+-63.51954591,-68.76333797,0.01708895,15.44477378,-9.03748901,-10.10747277
+-2.98215800,0.97234394,-1.78118040
+
+>  <Name>
+ligand.pdb
+
+>  <RI>
+9.13971e+06
+
+>  <Rbt.Current_Directory>
+/home/v/Downloads/rDock_2013.1_src/bin
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/v/Downloads/rDock_2013.1_src/data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/home/v/Desktop/receptorr.prm
+
+>  <SCORE>
+7.77154
+
+>  <SCORE.INTER>
+8.4
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+0
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+3
+
+>  <SCORE.INTER.VDW>
+0
+
+>  <SCORE.INTER.norm>
+0.6
+
+>  <SCORE.INTRA>
+-0.628459
+
+>  <SCORE.INTRA.DIHEDRAL>
+-1.52096
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+1.6411
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.132022
+
+>  <SCORE.INTRA.VDW.0>
+-0.639572
+
+>  <SCORE.INTRA.norm>
+-0.0448899
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+0
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0
+
+>  <SCORE.SYSTEM.norm>
+0
+
+>  <SCORE.heavy>
+14
+
+>  <SCORE.norm>
+0.55511
+
+$$$$
+ligand.pdb
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   13.2455   -6.3551  -11.4678 C   0  0  0  0  0  0
+   16.9224  -11.0700   -9.8042 C   0  0  0  0  0  0
+   12.8539   -7.7298  -11.9850 C   0  0  0  0  0  0
+   12.2147   -8.6123  -10.9134 C   0  0  0  0  0  0
+   14.2167   -9.7045   -9.9964 C   0  0  0  0  0  0
+   16.2549  -10.4697   -8.7430 C   0  0  0  0  0  0
+   16.8342  -10.4886   -7.4823 C   0  0  0  0  0  0
+   18.0708  -11.0873   -7.2922 C   0  0  0  0  0  0
+   18.7207  -11.6924   -8.3441 C   0  0  0  0  0  0
+   18.1519  -11.6790   -9.5954 C   0  0  0  0  0  0
+   13.1308   -8.9169   -9.8276 N   0  0  0  0  0  0
+   14.9923   -9.8416   -8.8720 N   0  0  0  0  0  0
+   14.4769  -10.2588  -11.0723 O   0  0  0  0  0  0
+   11.9492   -7.5998  -13.0740 O   0  0  0  0  0  0
+  2 10  2  0  0  0
+  2  6  1  0  0  0
+  3  4  1  0  0  0
+  3  1  1  0  0  0
+  4 11  1  0  0  0
+  5 11  1  0  0  0
+  5 12  1  0  0  0
+  6  7  2  0  0  0
+  7  8  1  0  0  0
+  9  8  2  0  0  0
+ 10  9  1  0  0  0
+ 12  6  1  0  0  0
+ 13  5  2  0  0  0
+ 14  3  1  0  0  0
+M  END
+>  <CHROM.1>
+-63.73618929,-68.10116460,0.01708895,15.03747248,-9.60753852,-9.98066198
+2.72397095,0.65329944,-1.72218751
+
+>  <Name>
+ligand.pdb
+
+>  <RI>
+9.13971e+06
+
+>  <Rbt.Current_Directory>
+/home/v/Downloads/rDock_2013.1_src/bin
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/v/Downloads/rDock_2013.1_src/data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/home/v/Desktop/receptorr.prm
+
+>  <SCORE>
+7.77158
+
+>  <SCORE.INTER>
+8.4
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+0
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+3
+
+>  <SCORE.INTER.VDW>
+0
+
+>  <SCORE.INTER.norm>
+0.6
+
+>  <SCORE.INTRA>
+-0.628416
+
+>  <SCORE.INTRA.DIHEDRAL>
+-1.52441
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+1.6411
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.133788
+
+>  <SCORE.INTRA.VDW.0>
+-0.639572
+
+>  <SCORE.INTRA.norm>
+-0.0448868
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+0
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0
+
+>  <SCORE.SYSTEM.norm>
+0
+
+>  <SCORE.heavy>
+14
+
+>  <SCORE.norm>
+0.555113
+
+$$$$
+ligand.pdb
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   12.9819   -3.8073   -9.8028 C   0  0  0  0  0  0
+   16.8241   -8.4196  -11.3477 C   0  0  0  0  0  0
+   12.3481   -5.0109  -10.4812 C   0  0  0  0  0  0
+   12.2052   -6.2152   -9.5513 C   0  0  0  0  0  0
+   14.3581   -7.3333   -9.9472 C   0  0  0  0  0  0
+   16.7045   -8.2300   -9.9760 C   0  0  0  0  0  0
+   17.7649   -8.5756   -9.1506 C   0  0  0  0  0  0
+   18.9329   -9.0896   -9.6943 C   0  0  0  0  0  0
+   19.0403   -9.2882  -11.0523 C   0  0  0  0  0  0
+   17.9931   -8.9495  -11.8758 C   0  0  0  0  0  0
+   13.4900   -6.7273   -9.1063 N   0  0  0  0  0  0
+   15.5407   -7.7090   -9.3600 N   0  0  0  0  0  0
+   14.0976   -7.5373  -11.1401 O   0  0  0  0  0  0
+   11.0651   -4.6645  -10.9862 O   0  0  0  0  0  0
+  2 10  2  0  0  0
+  2  6  1  0  0  0
+  3  4  1  0  0  0
+  3  1  1  0  0  0
+  4 11  1  0  0  0
+  5 11  1  0  0  0
+  5 12  1  0  0  0
+  6  7  2  0  0  0
+  7  8  1  0  0  0
+  9  8  2  0  0  0
+ 10  9  1  0  0  0
+ 12  6  1  0  0  0
+ 13  5  2  0  0  0
+ 14  3  1  0  0  0
+M  END
+>  <CHROM.1>
+-63.79507333,-68.23802313,1.36226425,15.10581638,-7.17038245,-10.25756902
+-3.03039941,0.55850608,-1.70316902
+
+>  <Name>
+ligand.pdb
+
+>  <RI>
+9.13971e+06
+
+>  <Rbt.Current_Directory>
+/home/v/Downloads/rDock_2013.1_src/bin
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/v/Downloads/rDock_2013.1_src/data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/home/v/Desktop/receptorr.prm
+
+>  <SCORE>
+7.77147
+
+>  <SCORE.INTER>
+8.4
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+0
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+3
+
+>  <SCORE.INTER.VDW>
+0
+
+>  <SCORE.INTER.norm>
+0.6
+
+>  <SCORE.INTRA>
+-0.628529
+
+>  <SCORE.INTRA.DIHEDRAL>
+-1.51577
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+1.6411
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.129355
+
+>  <SCORE.INTRA.VDW.0>
+-0.639572
+
+>  <SCORE.INTRA.norm>
+-0.0448949
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+0
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0
+
+>  <SCORE.SYSTEM.norm>
+0
+
+>  <SCORE.heavy>
+14
+
+>  <SCORE.norm>
+0.555105
+
+$$$$
+ligand.pdb
+  rDOCK(R)          3D
+libRbt.so/2013.1/901 2013/11/27
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+   14.2352   -5.2333  -12.0499 C   0  0  0  0  0  0
+   17.6570  -10.3346  -11.1951 C   0  0  0  0  0  0
+   13.6284   -6.5378  -12.5406 C   0  0  0  0  0  0
+   13.0917   -7.4114  -11.4072 C   0  0  0  0  0  0
+   15.1020   -8.7239  -10.8800 C   0  0  0  0  0  0
+   17.2348   -9.7315  -10.0161 C   0  0  0  0  0  0
+   18.0092   -9.8663   -8.8727 C   0  0  0  0  0  0
+   19.1963  -10.5824   -8.9150 C   0  0  0  0  0  0
+   19.6023  -11.1892  -10.0821 C   0  0  0  0  0  0
+   18.8393  -11.0612  -11.2182 C   0  0  0  0  0  0
+   14.1401   -7.8517  -10.5029 N   0  0  0  0  0  0
+   16.0351   -8.9870   -9.9081 N   0  0  0  0  0  0
+   15.1264   -9.2439  -12.0031 O   0  0  0  0  0  0
+   12.5728   -6.2694  -13.4542 O   0  0  0  0  0  0
+  2 10  2  0  0  0
+  2  6  1  0  0  0
+  3  4  1  0  0  0
+  3  1  1  0  0  0
+  4 11  1  0  0  0
+  5 11  1  0  0  0
+  5 12  1  0  0  0
+  6  7  2  0  0  0
+  7  8  1  0  0  0
+  9  8  2  0  0  0
+ 10  9  1  0  0  0
+ 12  6  1  0  0  0
+ 13  5  2  0  0  0
+ 14  3  1  0  0  0
+M  END
+>  <CHROM.1>
+-63.60242378,-68.03587189,0.01708895,15.91985201,-8.70210506,-10.99971389
+2.95920587,0.71125255,-1.82675812
+
+>  <Name>
+ligand.pdb
+
+>  <RI>
+9.13971e+06
+
+>  <Rbt.Current_Directory>
+/home/v/Downloads/rDock_2013.1_src/bin
+
+>  <Rbt.Executable>
+rbdock ($Id: //depot/dev/client3/rdock/2013.1/src/exe/rbdock.cxx#4 $)
+
+>  <Rbt.Library>
+libRbt.so (2013.1, Build901 2013/11/27)
+
+>  <Rbt.Parameter_File>
+/home/v/Downloads/rDock_2013.1_src/data/scripts/dock.prm
+
+>  <Rbt.Receptor>
+/home/v/Desktop/receptorr.prm
+
+>  <SCORE>
+7.77169
+
+>  <SCORE.INTER>
+8.4
+
+>  <SCORE.INTER.CONST>
+1
+
+>  <SCORE.INTER.POLAR>
+0
+
+>  <SCORE.INTER.REPUL>
+0
+
+>  <SCORE.INTER.ROT>
+3
+
+>  <SCORE.INTER.VDW>
+0
+
+>  <SCORE.INTER.norm>
+0.6
+
+>  <SCORE.INTRA>
+-0.628308
+
+>  <SCORE.INTRA.DIHEDRAL>
+-1.52865
+
+>  <SCORE.INTRA.DIHEDRAL.0>
+1.6411
+
+>  <SCORE.INTRA.POLAR>
+0
+
+>  <SCORE.INTRA.POLAR.0>
+0
+
+>  <SCORE.INTRA.REPUL>
+0
+
+>  <SCORE.INTRA.REPUL.0>
+0
+
+>  <SCORE.INTRA.VDW>
+0.136016
+
+>  <SCORE.INTRA.VDW.0>
+-0.639572
+
+>  <SCORE.INTRA.norm>
+-0.0448791
+
+>  <SCORE.RESTR>
+0
+
+>  <SCORE.RESTR.CAVITY>
+0
+
+>  <SCORE.RESTR.norm>
+0
+
+>  <SCORE.SYSTEM>
+0
+
+>  <SCORE.SYSTEM.CONST>
+0
+
+>  <SCORE.SYSTEM.DIHEDRAL>
+0
+
+>  <SCORE.SYSTEM.norm>
+0
+
+>  <SCORE.heavy>
+14
+
+>  <SCORE.norm>
+0.555121
+
+$$$$
