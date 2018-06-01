@@ -1,7 +1,8 @@
 # constrained-docking
 
 Overview 
-Both Autodock Vina (ADV) and rDock are molecular docking program useful for computer aided drug design
+
+Both Autodock Vina (ADV) and rDock are molecular docking programs useful for computer aided drug design.
 In this tutorial we will learn how to run MCS and pharmacophore based constrained docking on vina and rDock.
 
 Requirements
@@ -12,7 +13,7 @@ Vina
 
 3) Determined vina, utilities and pythonsh path
 
-4) Convert the target receptor (i.e., protein) and all ligands into pdbqt format format (using any traditional tools).
+4) Convert the target receptor (i.e., protein) and all ligands into pdbt format (using any traditional tools).
 
 5) Determined configuration file "vina.config", exhaustiveness and seed. For this work you will use the default parameters.
 
