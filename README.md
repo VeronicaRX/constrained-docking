@@ -1,7 +1,8 @@
 # constrained-docking
 
 Overview 
-Both Autodock Vina (ADV) and rDock are molecular docking program useful for computer aided drug design
+
+Both Autodock Vina (ADV) and rDock are molecular docking programs useful for computer aided drug design.
 In this tutorial we will learn how to run MCS and pharmacophore based constrained docking on vina and rDock.
 
 Requirements
@@ -19,6 +20,6 @@ Rdock
 
 7) Used both pharmacophore and sdtheter implementation for launch constrained docking
 
-8) Run the docking. Using matplpotlib built scoring energy plot a function of RMSD. RMSD is calculated between docked poses and crystal pose. Then draw correlation line using Pearson coefficient for both constrained and non constrained docking. 
+8) Run the docking. Using matplpotlib built scoring energy plot a function of RMSD. RMSD is calculated between docked poses and the crystal pose. Then draw correlation line using Pearson coefficient for both constrained and non constrained docking. 
 
 
