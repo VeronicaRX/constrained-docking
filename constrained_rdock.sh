@@ -11,8 +11,8 @@ ${rdockpath}/sdrmsd ligand_581.sdf S0.sd
 #using sdtether implementation 
 ${rdockpath}/sdtether ligand_581.sdf ligand_581.sdf ligand_r.sdf 'C(=O)'
 ${rdockpath}/rbcavity -d -was -r receptor.prm
-${rdockpath}/rbdock -i lignad_581.sdf -o C5 -r receptorp1.prm -p dock_solv.prm  -n 10
-${rdockpath}/rbdock -i lignad_581.sdf -o C5s -r receptorp1.prm -p dock.prm  -n 10
+${rdockpath}/rbdock -i lignad_581.sdf -o C5 -r receptorr.prm -p dock_solv.prm  -n 10
+${rdockpath}/rbdock -i lignad_581.sdf -o C5s -r receptorr.prm -p dock.prm  -n 10
 ${rdockpath}/sdrmd ligand_581.sdf C5.sd
 ${rdockpath}/sdrmd ligand_581.sdf C5s.sd
 
