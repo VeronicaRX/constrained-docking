@@ -23,8 +23,8 @@ rdkit,Openbabel, rDock and ADV.
 5) Set up users define parmaters : size box using "vina.config", exhaustiveness and seed. In this example we use the default parameters.
 
 6) Convert a dupe ligand, like water, in pdbqt format and use "--flex" implemenation to define ligand as part of receptor  and run the docking "constraint.sh"
-
 ]
+
 #MCS-1 branch
 
 [Rdock
