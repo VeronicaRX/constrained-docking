@@ -26,11 +26,13 @@ rdkit,Openbabel, rDock and ADV.
 
 ]
 #MCS-1 branch
+
 [Rdock
 
 5) Convert the target receptor (i.e., protein) in mol2 and all ligands into sdf format (using any traditional tools such as openbabel).
 
 6) Configure .prm file with desireable features and run the docking contraint_rdock.sh 
 ]
+
 7)Treat the output using corrplot from "R".
 
