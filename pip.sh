@@ -1,3 +1,4 @@
+#non contrained docking pipeline
 #!/bin/bash
 
 workdir=$(pwd -P)
