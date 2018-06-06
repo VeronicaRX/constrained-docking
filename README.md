@@ -13,18 +13,24 @@ rdkit,Openbabel, rDock and ADV.
 
 2) Choose rationale pharmacophore in regard of your ligand features
 
-
+#vina branch
 [Vina
 
-3) Change path when it's required  exp: vinapath="/Users/veronicagueye/Desktop/autodock_vina_1_1_2_mac/bin"
+3) Change path when it's necessary  exp: vinapath="/Users/veronicagueye/Desktop/autodock_vina_1_1_2_mac/bin"
 
 4) Convert the target receptor (i.e., protein) and all ligands into pdbqt format (using any traditional tools such as utilities24 script "prepare_receptor4.py" and "prepare_ligand4.py").
 
 5) Set up users define parmaters : size box using "vina.config", exhaustiveness and seed. In this example we use the default parameters.
 
-6) Launch a non constrained docking, and check the output
+6) Convert a dupe ligand, like water, in pdbqt format and use "--flex" implemenation to define ligand as part of receptor  and run the docking "constraint.sh"
 
-7) Convert a dupe ligand, like water, in pdbqt format and use "--flex" implemenation to define ligand as part of receptor
+]
+#MCS-1 branch
+[Rdock
 
-8) Run the docking. Treat the output using corrplot from "R".]
+5) Convert the target receptor (i.e., protein) in mol2 and all ligands into sdf format (using any traditional tools such as openbabel).
+
+6) Configure .prm file with desireable features and run the docking contraint_rdock.sh 
+]
+7)Treat the output using corrplot from "R".
 
