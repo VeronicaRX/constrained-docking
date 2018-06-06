@@ -13,7 +13,7 @@ rdkit,Openbabel, rDock and ADV.
 
 2) Choose rationale pharmacophore in regard of your ligand features
 
-#vina branch
+##vina branch
 [Vina
 
 3) Change path when it's necessary  exp: vinapath="/Users/veronicagueye/Desktop/autodock_vina_1_1_2_mac/bin"
@@ -25,7 +25,7 @@ rdkit,Openbabel, rDock and ADV.
 6) Convert a dupe ligand, like water, in pdbqt format and use "--flex" implemenation to define ligand as part of receptor  and run the docking "constraint.sh"
 ]
 
-#MCS-1 branch
+##MCS-1 branch
 
 [Rdock
 
